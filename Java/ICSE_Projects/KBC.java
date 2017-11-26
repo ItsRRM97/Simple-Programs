@@ -1,7 +1,7 @@
-package ICSE_Projects;
+ 
 
 // Importing Packages
-import java.lang.*; //DEFAULT PACKAGE
+
 import java.io.*;   //IO package...stands for input output                   
 class KBC // Class Name
   {   
@@ -167,7 +167,7 @@ class KBC // Class Name
           for(i=1;i<=30000000;i++){}
           System.out.println();
           System.out.println();
-          if(q==0)                 // The questions will be executed only if "q" is incremented, "q" will be incremented only if answers are correct
+          if(q==0) // The questions will be executed only if "q" is incremented, "q" will be incremented only if answers are correct
           {
           System.out.println("Your First Question is of Rs."+score[q]);
           for(i=1;i<=30000000;i++){}
@@ -254,7 +254,7 @@ class KBC // Class Name
           switch(ch3)
           {
               case 'A': System.out.println(wa);obj.option();obj.total(); break;
-              case 'B': System.out.println(ca); q++;  break;
+              case 'B': System.out.println(ca); q++; break;
               case 'C': System.out.println(wa);obj.option();obj.total(); break;
               case 'D': System.out.println(wa);obj.option();obj.total(); break;
               case 'F': obj.Flip(); break;
@@ -572,6 +572,7 @@ class KBC // Class Name
            {
             System.out.println("None");
             }
+            char cha8=Character.toUpperCase(((char)br.read()));
           char ch10=Character.toUpperCase(((char)br.read()));
           switch(ch10)
           {
@@ -584,7 +585,7 @@ class KBC // Class Name
               case 'Q':  System.out.println(" You Have Quitted the game, Thanks for playing KBC!!!!"); obj.total();  break;
               default : System.out.println(" You entered some other option! You lost the game!");obj.total(); break;
             }}
-
+            
             if(q==9)
           {
           System.out.println("Your Tenth Question is of Rs. 2500000");
@@ -768,18 +769,18 @@ class KBC // Class Name
               case 'A': System.out.println(wa);obj.option();obj.total(); break;
               case 'B': System.out.println(wa);obj.option();obj.total(); break;
               case 'C': System.out.println(wa);obj.option();obj.total(); break;
-              case 'D': System.out.println(ca);q++; break;
+              case 'D': System.out.println(ca);System.out.println("Congratulations you have 5 crores, now you can"+feelings); obj.total(); break;
               case 'F': obj.Flip(); break;
               case 'E': obj.Dip(); break;
               case 'Q':  System.out.println(" You Have Quitted the game, Thanks for playing KBC!!!!"); obj.total();  break;
               default : System.out.println(" You entered some other option! You lost the game!");obj.total(); break; 
             }
         }
-        
         else
         {
             System.out.println("Thank You!!!!!!!!!!!! Play Again!!!!!!!!!");
-            System.out.println("Your have won Rs."+score[q-1]);
+            obj.total();
+            System.out.println("Your have won Rs."+money);
         }
     }
     void Dip()throws IOException          // function double dip
@@ -791,30 +792,21 @@ class KBC // Class Name
                    System.out.println("ENTER FIRST CHOICE");
                    char ch1=(char)br.read();
                    System.out.println();
+                   System.out.println("ENTER SECOND CHOICE");
+                   char ch202=(char)br.read();
+                   char ch2=Character.toUpperCase((char)br.read());
                    
-                   if(answer[q]==ch1)
+                   if(answer[q]==ch1 || answer[q]==ch2)
                    {
                        System.out.println(ca);
-                       
-               q++;
+                       q++;
             }
-           else  {System.out.println("incorrect option");
-            System.out.println("ENTER SECOND CHOICE");
-             char ch20=(char)br.read();
-            char ch2=(char)br.read();
-                    if(answer[q]==ch2)
-                   {
-                       System.out.println(ca);
-                       
-               q++;
-            }
-        
-            else
-            {
-            System.out.println(wa);
+           else  {
+               System.out.println("both incorrect option");
+               System.out.println(wa);
         }
         e++;//count
-    }}
+    }
     else
     {
         System.out.println("You have used this option once");
@@ -831,7 +823,7 @@ class KBC // Class Name
            System.out.println(" B. Mark Butcher");
            System.out.println(" C. Robert Edwin Perry");
            System.out.println(" D. Dave Bautista");
-           char ans=(char)br.read();
+           char ans=Character.toUpperCase((char)br.read());
            if(ans=='A')
            {
                System.out.println(ca);
