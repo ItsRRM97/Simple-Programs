@@ -1,3 +1,5 @@
+//swap two numbers without using a third variable
+
 #include<stdio.h>
 #include<conio.h>
 int main()
