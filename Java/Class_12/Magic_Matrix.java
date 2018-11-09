@@ -1,4 +1,4 @@
-package Class_12;
+ 
 // progam to generate magic matrix
 /**
 * The class Magic_Matrix creates a Square Matrix of size n*n and fills it

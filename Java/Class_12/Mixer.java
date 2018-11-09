@@ -1,4 +1,4 @@
-package Class_12;
+ 
 
 /** * The class Mixer merges the array of the current object with the array of the * object passed as parameter * @author : www.javaforschool.com * @Program Type : BlueJ Program - Java * @Question Year : ISC 2014 Question 8 (Theory) */ 
 import java.io.*; 

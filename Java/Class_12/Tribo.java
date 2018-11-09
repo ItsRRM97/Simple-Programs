@@ -1,4 +1,4 @@
-package Class_12;
+ 
 //program to generate tribonacci series upto n terms using recursive technique 
 class Tribo
 {

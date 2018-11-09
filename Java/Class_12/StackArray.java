@@ -1,4 +1,4 @@
-package Class_12;
+ 
 
  class StackArray implements Stack
  {

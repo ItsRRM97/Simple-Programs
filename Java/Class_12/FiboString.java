@@ -1,4 +1,4 @@
-package Class_12;
+ 
 
 /**
 * The class FiboString prints the sequence of fibonacci strings

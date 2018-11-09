@@ -1,4 +1,4 @@
-package Class_12;
+ 
 // inheritence display of logic
 /** * The superclass Perimeter calculate the perimeter of a parallelogram and
     * the subclass Area calculates the area of a parallelogram

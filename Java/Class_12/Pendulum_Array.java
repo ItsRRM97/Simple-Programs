@@ -1,5 +1,5 @@
 
-package Class_12;
+ 
 
 /**
 * The class Pendulum_Array inputs a set of integers in an Array and arranges them in Pendulum Fashion

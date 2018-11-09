@@ -1,4 +1,4 @@
-package Class_12;
+ 
 
 // WAP to accept numbers and print it average using scanner class
 import java.util.*;

@@ -1,4 +1,4 @@
-package Class_12;
+ 
 /**
 * The class Q3_ISC2015 inputs a sentence, converts the first letter of each word to
 * uppercase and find the number of vowels and consonants

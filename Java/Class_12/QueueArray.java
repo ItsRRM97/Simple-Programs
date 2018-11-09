@@ -1,4 +1,4 @@
-package Class_12;
+ 
  class QueueArray implements Queue
  {
  int arr[], rear, front;

@@ -1,4 +1,4 @@
-package Class_12;
+ 
 //string buffer syntax and demonstation
 public class MyStringComp {
  

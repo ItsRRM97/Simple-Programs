@@ -1,4 +1,4 @@
-package Class_12;
+ 
 import java.util.*; import java.awt.*;
 class Emirp
 {

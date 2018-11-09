@@ -1,4 +1,4 @@
-package Class_12;
+ 
 
 /** * The class FiboRec prints the Fibonacci Series 
  * upto 'n' terms using the concept of FiboRec *
